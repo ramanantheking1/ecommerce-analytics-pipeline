@@ -10,14 +10,23 @@ Data Generation → ETL Processing → Data Warehouse → Power BI Dashboard
 
 ## 📁 Project Structure
 ecommerce-analytics-pipeline/
+
 ├── generate_data.py # Synthetic e-commerce data generation
+
 ├── etl_pipeline.py # Complete ETL processing pipeline
+
 ├── export_for_powerbi.py # Data export utility
+
 ├── run_pipeline.py # Master automation script
+
 ├── run_pipeline.bat # One-click execution (Windows)
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Project documentation
+
 └── screenshots/ # Dashboard preview images
+
 ├── dashboard.png
 
 
@@ -55,7 +64,9 @@ or double-click run_pipeline.bat (Windows)
 2.Connect Power BI to MySQL:
 
 Server: localhost
+
 Database: ecommerce_dw
+
 Username: root (Password: leave empty)
 
 3.Refresh Power BI to see updated data
