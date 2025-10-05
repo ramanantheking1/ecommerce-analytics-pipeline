@@ -3,7 +3,7 @@
 ## 📊 Project Overview
 A complete end-to-end data pipeline that generates synthetic e-commerce data, processes it through an automated ETL pipeline, and delivers interactive business insights through a Power BI dashboard.
 
-![Dashboard Preview](screenshots/dashboard.png)
+![Dashboard Preview](ecommerce-analytics-pipeline/screenshots)
 
 ## 🏗️ System Architecture
 Data Generation → ETL Processing → Data Warehouse → Power BI Dashboard
